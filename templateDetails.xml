@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site" version="3.8.6"	method="upgrade">
+  <name>sitesassure</name>
+  <version>1.0</version>
+  <creationDate>3/14/2018</creationDate>
+  <author>devaraj@spinzsoft</author>
+  <authorEmail>devaraj@spinzsoft.com</authorEmail>
+  <copyright>Copyright (C) 2018 - 2019 Open Source Matters, Inc. All rights reserved.</copyright>
+  <description>It is a bootstrap template</description>
+  <files>
+    <filename>favicon.ico</filename>
+    <filename>index.php</filename>
+    <filename>templateDetails.xml</filename>
+    <filename>index.html</filename>
+    <folder>css</folder>
+    <folder>html</folder>
+    <folder>images</folder>
+    <folder>js</folder>
+  </files>
+  <positions>
+    <position>logo</position>
+    <position>slider</position>
+    <position>menu</position>
+    <position>top_menu</position>
+    <position>log_button</position>
+    <position>position-a</position>
+    <position>position-a1</position>
+    <position>position-a2</position>
+    <position>position-b</position>
+    <position>position-c1</position>
+    <position>position-c2</position>
+    <position>position-d1</position>
+    <position>position-d2</position>
+    <position>position-e1</position>
+    <position>position-e2</position>
+    <position>position-f1</position>
+    <position>position-f2</position>
+    <position>position-f3</position>
+    <position>position-f4</position>
+    <position>position-g1</position>
+    <position>position-g2</position>
+    <position>position-h</position>
+    <position>position-bottom</position>
+    <position>position-i1</position>
+    <position>position-i2</position>
+    <position>footer</position>
+  </positions>
+  <config>
+    <fields name="params">
+      <fieldset name="General">
+      <field 					
+          name="logoFile" 					
+          type="media" 					
+          label="Logo"	
+          description="Select The Logo"					
+          default=""					
+          filter="string" 				
+      />
+      
+      <field 					
+          name="slider_bg" 					
+          type="media" 					
+          label="Slider"				
+          description="Select The Slider Pic"			
+          default=""					
+          filter="string" 				
+      />
+      <field 					
+          name="contact_bg" 			
+          type="media" 				
+          label="Conatct Form Background"	
+          description="Select The Conatct Form Background"	
+          default=""					
+          filter="string" 				
+      />
+      <field 					
+          name="copyright_text" 		
+          type="text" 				
+          label="Copyright Text"		
+          description="Enter Your Copyright Text" 
+          class="" 				
+          default="Copyright"			
+      />
+      <field 					
+          name="position_a_color" 		
+          type="color" 				
+          label="Position A Background Color"	
+          description="Enter The Color Code"	
+          default="" 				
+      />
+      <field 					
+          name="position_b_color" 		
+          type="color" 				
+          label="Position B Background Color"		
+          description="Enter The Color Code"		
+          default="" 				
+      />
+      <field 					
+          name="menu_color" 			
+          type="color" 				
+          label="Menu Background Color"		
+          description="Enter The Color Code"			
+          default="" 				
+      />
+      
+      <field 					
+          name="position_d1d2_color" 		
+          type="color" 				
+          label="Position D1D2 Background Color"
+          description="Enter The Color Code"	
+          default="" 				
+      />
+      <field 					
+          name="position_f1_color" 		
+          type="color" 				
+          label="Position F1 Background Color"	
+          description="Enter The Color Code"		
+          default="" 				
+      />
+      <field 					
+          name="position_f2_color" 		
+          type="color" 				
+          label="Position F2 Background Color"	
+          description="Enter The Color Code"	
+          default="" 				
+      />
+      <field 					
+          name="position_f3_color" 		
+          type="color" 				
+          label="Position F3 Background Color"	
+          description="Enter The Color Code"	
+          default="" 				
+      />
+      <field 					
+          name="position_f4_color" 		
+          type="color" 				
+          label="Position F4 Background Color"
+          description="Enter The Color Code"	
+          default="" 				
+      />
+      
+      <field 				
+          name="position_h_color" 		
+          type="color" 				
+          label="Position H Background Color"
+          description="Enter The Color Code"	
+          default="" 				
+      />
+      <field 					
+          name="position_bottom_color" 		
+          type="color" 				
+          label="Position Bottom Background Color"
+          description="Enter The Color Code"	
+          default="" 				
+      />
+      <field 					
+          name="position_footer_color" 		
+          type="color" 					
+          label="Position Footer Background Color"	
+          description="Enter The Color Code"		
+          default="" 				
+      />
+      </fieldset>
+    </fields>
+  </config>
+</extension>
